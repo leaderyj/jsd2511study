@@ -1,0 +1,28 @@
+//package用于声明包名：day01，相当于 声明：小区+单元
+//11月29日 星期六，今天学习我很开心
+package day01;
+
+//public是一个权限修饰符，后边重点讲
+//class声明类名：HelloWorld，相当于声明房子
+public class HelloWorld {
+    /*
+    main()方法：是程序的主入口，又叫做主程序，相当于房子的大门
+    所有要执行的代码放在main()方法的{}里边
+    运行的代码从main方法的{开始，到}结束，中间的代码，逐行执行
+    技巧：输入main，根据提示拍回车
+    */
+    public static void main(String[] args) {
+        //sout()方法：是Java中的输出打印功能，想打印的内容可以写在()里边
+        //如果想输出字符串，需要加上"" 双引号
+        //如果想要输出数字，直接写
+        //技巧：输入sout，根据提示，选择sout方法，拍回车
+        System.out.println("Hello World");  //输出HelloWorld
+        System.out.println(123);            //输出123
+
+        //运行代码常用方法：         ---休息至：17:35
+        //方法一：右键-->Run
+        //方法二：代码左侧的绿色小三角 --> Run
+        //方法三：使用快捷键--> Ctrl  shift  F10
+        //方法四：选择右上角的绿色小三角，但是一定要看清运行的是哪个文件
+    }
+}
